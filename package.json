@@ -1,0 +1,28 @@
+{
+  "name": "octopart",
+  "description": "A simple wrapper for the Octopart V3 API for Node",
+  "main": "./lib/octopart",
+  "author": {
+    "name": "Joris Aerts"
+  },
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorisa/octopart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorisa/octopart/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jorisa/octopart/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "request": ">2.0.0"
+  },
+  "devDependencies": {
+    "nodelint": ">0.0.0"
+  }  
+}
