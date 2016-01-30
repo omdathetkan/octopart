@@ -19,11 +19,11 @@ octopart.parts.match(queries, {
     exact_only: true,
     show: ['uid','mpn','manufacturer']
 }).success(function(body) {
-    for(var i=0;i<body.results.length;i++) {
-        console.log("Result", i, body.results[i].items);
-    }
+    body.results.map(function(result) {
+        console.log('Result', result);
+    });
 }).failure(function(err) {
-    console.log("Ooops....", err");
+    console.log('Ooops....', err);
 });
 ```
 
